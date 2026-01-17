@@ -14,7 +14,7 @@ class HelloControllerTests {
     @Test
     void contextLoads() {
         String say = exampleController.sayHello();
-        System.out.println(say);
+        System.out.println(this.getClass() + " say: " + say);
     }
 
 }
